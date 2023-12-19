@@ -1,0 +1,506 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+<script>
+var video = document.getElementById("myVideo");
+</script>
+
+    <title>Storm X</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Italiana&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+
+    
+
+    <style>
+      *
+      {
+      margin:0;
+      }
+
+      body
+      {
+      /* background: white;*/
+      /*background: linear-gradient(45deg, #021845 0%, #0B3080 51.64%, #021846 100%);*/
+     /* background: linear-gradient(287deg, #010036 13.74%, #000 100.87%);*/
+       /*background: linear-gradient(287deg, #010036 13.74%, #050282 100.87%);*/
+      
+       /*background: conic-gradient(from 31deg at 0% 100%, rgba(6, 3, 178, 0.81) 13.791663944721222deg, #010036 46.60329043865204deg, #BD0B3C 304.26661491394043deg);*/
+       background: linear-gradient(287deg, #FDC9D1 24.57%, rgba(255, 255, 255, 0.00) 112.89%);;
+       background-repeat: no-repeat;
+       position:static;
+       overflow-x: hidden;
+       font-style: italic;
+       font-family: 'Abril Fatface', cursive;
+font-family: 'Montserrat', sans-serif;
+
+
+      }
+
+      #navbar
+      {
+      position: fixed;
+      width:100%;
+      background: linear-gradient(90deg, #021845 3.26%, #0A3181 39.55%, #B4103E 81.04%);
+      display:table;
+      height:70px;
+      display:table ;
+
+
+      }
+      
+      
+      .top
+      {
+      width:50%;
+      float:left;
+     
+      }
+      .top>ul
+      {
+      list-style-type:none;
+       text-align:left;
+      padding:55px;
+      
+      }
+      .top>ul>li
+      {
+      display:inline-block;
+     
+      }
+      .top>ul>li>a
+      {
+        font-family: Italiana;
+        font-style: normal;
+      text-decoration:none;
+      padding-right:59px;
+      color: #CCCCCC; /* Light gray font color */;       
+      }
+
+      .top>h1
+      {
+       padding:35px;
+       font-size: 80px;
+     color: #FFF;     
+      font-family: 'Italiana', serif;
+      font-size: 60px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+        } 
+      .banner>img
+      { 
+        width:100%;
+         height:820px; 
+       }
+
+        .about
+        {
+          font-style: italic;
+         color:080B4E;
+         height: 400px;
+         padding: 50px;
+          /*background: linear-gradient(187deg, #021F5F 2.27%, #112465 44.27%, #BD0B3C 100%);*/
+          background-size: 100%;
+         
+        }
+        
+        .banner
+        {
+          position: static;
+          padding-top: 100px;
+         }
+        
+        
+        .about 
+        {
+          padding-top: 100px;
+          text-align: center;
+        }  
+        .about>p
+        {
+           text-align: justify;
+          padding-top: 30px;
+          line-height: 29px;
+        }   
+
+        #carmenu
+        {
+          width:100%;
+          display: table;
+        } 
+        .car
+        {
+          width: 25%;
+          float: left;
+        }
+
+       /* #flags
+        {
+          width: 100%;
+          display: table;
+        }
+        .f
+        {
+          width: 25%;
+          float: left;
+          padding-top: 40px;
+          margin: 20px;
+        }
+        .f>img
+        {
+          width: :5px;
+          height: 90px;
+          
+        }*/
+
+        #cartypes
+        {
+          width: 100%;
+          height: 100%;
+          display: table;
+        }
+        .cartype
+        {
+          background-color: linear-gradient(11deg, #021F5F 2.27%, #112465 44.27%, #BD0B3C 100%);
+          width:50%;
+          height: 500px;
+          float: left;
+          padding-top: 40px;
+
+        }
+        .cartype>p
+        {
+          text-align: center;
+          color:080B4E;
+          font-size: 18px;
+         
+font-family: 'Montserrat', sans-serif;
+        }
+       #myVideo {
+        padding-top:15px;
+  position:static;
+  width: 100%; 
+  height: 80%;
+  }
+
+  .cartype>img
+  {
+    width:100%;
+    height: 500px;
+  }
+ 
+   /* FOOTER BEGINS*/
+      body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact,
+.quick-links,
+.social-media,
+.newsletter {
+  flex: 1;
+  margin: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+form {
+  display: flex;
+}
+
+input {
+  flex: 2;
+  padding: 5px;
+}
+
+button {
+  flex: 1;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.payment-methods {
+  background-color: #ddd;
+  text-align: center;
+  padding: 10px;
+}
+
+.copyright {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+/* FOOTER ENDS */
+
+        
+    </style>
+ 
+  <body>
+   <head>
+    <div id="navbar">
+     <div class="top">
+      <h1>XcelDrive</h1>
+     </div>
+    
+      <div class="top">
+        <ul>
+          <li><a href="XcelDrive.html">Home</a></li>
+          <li><a href="Motorcorridor.html">Motor Corridor</a></li>
+          <li><a href="UserCircle.html">User Circle</a></li>
+          <li><a href="Contact.html">Contact</a></li>
+          <li><a href="Service.html">Service</a></li>
+        </ul>       
+      </div>
+    </div>
+   
+   
+   
+    <div class="banner">
+     <!-- <img src="Tesla.jpg">-->
+     <div class="vedio">
+  <video autoplay muted loop id="myVideo">
+  <source src="bgvedio.mp4" type="video/mp4">
+</video>
+</div>
+<!--<div class="vediotext">Limited Time Offer: Up to 20% off on Select Models!</div>-->
+    </div>
+
+
+    <div class="about">
+      <h3>Experience Unrivaled Luxury and Trust at India's Premier Vehicle ShowHouse!</h3>
+      <p >Step into a world of opulence and reliability as we proudly present India's Most Luxurious and Trusted Vehicle ShowHouse. Here, we redefine automotive excellence, offering an unmatched selection of the finest vehicles that exude class and sophistication.
+
+Our showroom is a haven of automotive dreams, showcasing the crème de la crème of cars, from sleek sedans to powerful SUVs, and from elegant coupes to cutting-edge electric vehicles. Every vehicle meticulously curated to meet your highest expectations and desires.
+
+What sets us apart is not just the array of luxury vehicles we offer, but our unwavering commitment to trust and integrity. For years, we have been earning the trust of countless satisfied customers, who rely on us for their automotive needs with confidence and peace of mind.
+
+At India's Most Luxurious and Trusted Vehicle ShowHouse, we believe that the ultimate luxury experience goes beyond owning a prestigious car. It's about personalized service tailored to your preferences, ensuring that you find the perfect vehicle that aligns with your lifestyle and aspirations.
+
+Our team of automotive experts is here to guide you every step of the way, providing insightful advice and in-depth knowledge about the vehicles that catch your eye. We understand that every customer is unique, and we take pride in delivering a bespoke experience that befits your individuality.
+
+But don't take our word for it – come and witness the splendor of our showroom yourself. Immerse yourself in a world of top-tier craftsmanship, cutting-edge technology, and unparalleled comfort. Whether you're a connoisseur of luxury or a discerning enthusiast, our ShowHouse is the ultimate destination for your automotive desires.
+
+Indulge yourself in the epitome of luxury and trust. Visit India's Most Luxurious and Trusted Vehicle ShowHouse today and embark on a journey of automotive perfection!"
+</p>
+</div>
+
+
+
+ <!--<img src="carlogos.png" style=" width:450px; height:450px;">-->
+
+ <!--<div id="flags">
+  <div class="f">
+   <img src="india.jpg"> 
+  </div>
+  
+  <div class="f">
+    <img src="russia.jpg"> 
+  </div>
+  
+  <div class="f">
+   <img src="usa.jpg"> 
+  </div>
+  
+  <div class="f">
+    <img src="china.jpg"> 
+  </div>
+</div>-->
+
+<!--<div>
+<p style="font-size:40px; margin-top: 10px; margin-left: 550px;font-family: 'Italiana', serif;color: black; ">AutoEnclave Gallery</p>
+    </div>-->
+
+   <div id="carmenu">
+    <div class="car">
+      <img src="car1.jpg">
+    </div>
+     <div class="car">
+      <img src="car2.jpg">
+    </div>
+     <div class="car">
+      <img src="car3.jpg">
+    </div>
+     <div class="car">
+      <img src="car4.png">
+    </div>
+  </div>
+   
+<p style="font-family: 'Italiana', serif;
+             color: 080B4E;
+             text-align:center;
+             padding-top: 55px;
+             font-size: 30px;
+             "> 
+         <i>DriveWorld Showcase</i></p>
+
+  <p style="padding-top: 80px; font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif; text-align:center; font-size: 20px; color:080B4E;">Embark on a global journey of automotive excellence as we present a captivating collection of diverse car types,<br> catering to every driver's dream and desire.</p>
+  
+  <div id="Cartypes" >
+    
+    <div class="cartype" >
+      <p style="padding-top: 120px;padding-left: 100px; font-family: 'Montserrat', sans-serif;font-size: 33px;text-align: center;"> Tesla Model 3</p>
+      <p style="padding-top: 65px;
+          padding-left: 100px;">Discover the future of driving with the Tesla Model 3 - an iconic electric sedan that combines innovation, performance, and eco-consciousness. Experience the thrill of advanced technology, safety, and autopilot features while making a sustainable choice. Embrace luxury and environmental responsibility, redefining your driving experience today<br><br>At our showroom, the Tesla Model 3 awaits you with its stunning design and state-of-the-art features. Feel the power of emission-free driving and revel in the Model 3's impressive performance. As you embark on your journey, experience the seamless integration of cutting-edge technology and unparalleled safety standards in this acclaimed electric sedan.</p>
+    </div>
+    <div class="cartype" ><img src="tf.png"></div>
+      
+  
+
+<div class="cartype" ><img src="rav4.png"></div>
+<div class="cartype" >
+<p style="padding-top: 120px;padding-right: 100px;font-family: 'Montserrat', sans-serif;font-size: 33px;text-align: center;"> Toyota RAV4</p>
+          
+          
+<p style="padding-top: 65px;
+          padding-right: 100px;">Experience the epitome of reliability and versatility with the Toyota RAV4. Dominate every terrain with its rugged performance and fuel efficiency. Unparalleled safety features protect you on every journey, ensuring peace of mind for your family. The spacious interior provides comfort and flexibility for all your endeavors. Embrace eco-friendliness with available hybrid models, driving towards a greener future. With a modern and stylish design, the Toyota RAV4 stands out wherever it goes. Elevate your driving ex</p>
+    </div>
+ </div>   
+
+ <div id="Cartypes" >
+    
+    <div class="cartype" >
+      <p style="padding-top: 120px;padding-left: 100px;font-family: 'Montserrat', sans-serif;font-size: 33px;text-align: center;"> Tesla Model 3</p>
+      <p style="padding-top: 65px;
+          padding-left: 100px;">Discover the future of driving with the Tesla Model 3 - an iconic electric sedan that combines innovation, performance, and eco-consciousness. Experience the thrill of advanced technology, safety, and autopilot features while making a sustainable choice. Embrace luxury and environmental responsibility, redefining your driving experience today<br><br>At our showroom, the Tesla Model 3 awaits you with its stunning design and state-of-the-art features. Feel the power of emission-free driving and revel in the Model 3's impressive performance. As you embark on your journey, experience the seamless integration of cutting-edge technology and unparalleled safety standards in this acclaimed electric sedan.</p>
+    </div>
+    <div class="cartype" ><img src="tf.png"></div>
+      
+  
+
+<div class="cartype" ><img src="rav4.png"></div>
+<div class="cartype" >
+<p style="padding-top: 120px;padding-right: 100px; font-family: 'Montserrat', sans-serif;font-size: 33px;text-align: center;"> Toyota RAV4</p>
+          
+          
+<p style="padding-top: 65px;
+          padding-right: 100px;">Experience the epitome of reliability and versatility with the Toyota RAV4. Dominate every terrain with its rugged performance and fuel efficiency. Unparalleled safety features protect you on every journey, ensuring peace of mind for your family. The spacious interior provides comfort and flexibility for all your endeavors. Embrace eco-friendliness with available hybrid models, driving towards a greener future. With a modern and stylish design, the Toyota RAV4 stands out wherever it goes. Elevate your driving ex</p>
+    </div>
+ </div>   
+
+
+  
+
+
+<!-- FOOTER BEGINS-->
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Xcel Drive - Your Car Showroom</title>
+</head>
+<body>
+
+  <!-- Your website content goes here -->
+
+  <footer>
+    <div class="contact">
+      <h3>Contact Us</h3>
+      <p>Xcel Drive | Your Trusted Car Dealer</p>
+      <p>123 Main Street, Cityville, State, 12345</p>
+      <p>Phone: (123) 456-7890</p>
+      <p>Email: info@xceldrive.com</p>
+    </div>
+
+    <div class="quick-links">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Motor Corridor</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+        <!-- Add more links as needed -->
+      </ul>
+    </div>
+
+    <div class="social-media">
+      <h3>Connect With Us</h3>
+      <p>Follow us on social media for updates:</p>
+      <ul>
+        <li><a href="#" target="_blank">Facebook</a></li>
+        <li><a href="#" target="_blank">Twitter</a></li>
+        <li><a href="#" target="_blank">Instagram</a></li>
+        <li><a href="#" target="_blank">LinkedIn</a></li>
+      </ul>
+    </div>
+
+    <div class="newsletter">
+      <h3>Stay Informed!</h3>
+      <p>Subscribe to our newsletter for the latest news, promotions, and offers.</p>
+      <form>
+        <input type="email" placeholder="Your Email" required>
+        <button type="submit">Subscribe Now</button>
+      </form>
+    </div>
+  </footer>
+
+  <div class="payment-methods">
+    <p>We accept: Visa | MasterCard | Discover</p>
+    <p>Secure online payments for your convenience</p>
+  </div>
+
+  <div class="copyright">
+    <p>&copy; 2023 Xcel Drive. All Rights Reserved.</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+<!-- FOOTER ENDS -->
+
+
+    
+
+  
+  </body>
+</html>
